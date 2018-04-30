@@ -8,11 +8,16 @@
     box-sizing: border-box;
 }
 
+html {
+    /* accounts for scrollbar shift by including scrollbar on every page */
+    overflow-y: scroll;
+}
+
 body {
     background-image: url('../images/concrete_seamless.png');
 }
 
-a, nav, div, section, p, footer{
+a, nav, section, p, footer{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     text-decoration: none;
@@ -58,6 +63,33 @@ textarea {
     border: 0px;
 }
 
+.portfolioItem {
+    margin: 10px 10px 0px 10px;
+    display: block;
+    position: relative;
+    overflow: auto;
+    float: left;
+    color: #fff;
+}
+
+.portfolioItem a {
+    color: white;
+}
+
+.portfolioItem a:hover {
+    color: #f2845c;
+}
+
+.portfolioLinkBox {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4a849f;
+    top: 140px;
+}
 
 #navBarTop li {
     display: inline;
