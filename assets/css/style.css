@@ -63,6 +63,11 @@ textarea {
     border: 0px;
 }
 
+.submitButton:active {
+    background-color: #1b3440;
+    color: #f2845c;
+}
+
 .portfolioItem {
     margin: 10px 10px 0px 10px;
     display: block;
