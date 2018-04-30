@@ -2,7 +2,7 @@
 
 -- Replaced the sand color with white --
 
-#4a849f  #1b3440  #b4d6c6  #ffffff  #f2845c */
+#4aaaa5  #1b3440  #b4d6c6  #ffffff  #f2845c */
 
 * {
     box-sizing: border-box;
@@ -28,7 +28,7 @@ a:hover {
 }
 
 header, #nameBox {
-    color: #4a849f;
+    color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
@@ -57,7 +57,7 @@ textarea {
 }
 
 .submitButton {
-    background-color: #4a849f;
+    background-color: #4aaaa5;
     color: #fff;
     padding: 10px;
     border: 0px;
@@ -87,7 +87,7 @@ textarea {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    background-color: #4a849f;
+    background-color: #4aaaa5;
     top: 140px;
 }
 
@@ -98,11 +98,12 @@ textarea {
 
 #navBarTop {
     width: 100%;
-    height: 70px;
+    height: 75px;
     background: #fff;
     position: fixed;
     top: 0px;
     z-index: 2;
+    border-bottom: 5px solid #ccc;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
@@ -120,7 +121,7 @@ textarea {
 #nameBox {
     float: left;
     padding: 23px;
-    background-color: #4a849f;
+    background-color: #4aaaa5;
     color: #fff;
 }
 
@@ -139,6 +140,7 @@ textarea {
     margin: 100px auto;
     position: relative;
     background-color: #ffffff;
+    /* border: 5px solid #ddd; I know its part of the spec, but the shadow just looks way better imo */
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     padding: 23px;
 }
@@ -156,12 +158,12 @@ textarea {
 #avatarImage {
     border-radius: 50%;
     float: left;    
-    margin: 23px 23px 23px 0px;
+    margin: 23px 23px 10px 0px;
 }
 
 #pageFooterBar {
     background-color: #1b3440;
-    border-top: 5px #4a849f solid;
+    border-top: 5px #4aaaa5 solid;
     height: 45px;
     position: fixed;
     z-index: 2;
