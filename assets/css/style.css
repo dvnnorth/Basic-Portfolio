@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+}
+
+a, nav, div, section, p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2845c;
+}
